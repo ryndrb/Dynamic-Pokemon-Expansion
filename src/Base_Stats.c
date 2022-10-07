@@ -6323,7 +6323,7 @@ const struct BaseStats gBaseStats[] =
 		.baseSpDefense 	= 85,
 		.baseSpeed 		= 50,
 		.type1 = TYPE_GRASS,
-		.type2 = TYPE_GRASS,
+		.type2 = TYPE_FIRE,
 		.catchRate = 120,
 		.expYield = 146,
 		.evYield_HP 		= 0,
@@ -6343,7 +6343,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_CHLOROPHYLL,
 		.ability2 = ABILITY_SOLARPOWER,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_EARLYBIRD,
+		.hiddenAbility = ABILITY_DROUGHT,
 		.noFlip = TRUE,
 	},
 
@@ -6417,9 +6417,9 @@ const struct BaseStats gBaseStats[] =
 	{
 		.baseHP 		= 110,
 		.baseAttack 	= 85,
-		.baseDefense 	= 105,
-		.baseSpAttack 	= 30,
-		.baseSpDefense 	= 65,
+		.baseDefense 	= 100,
+		.baseSpAttack 	= 65,
+		.baseSpDefense 	= 85,
 		.baseSpeed 		= 35,
 		.type1 = TYPE_WATER,
 		.type2 = TYPE_GROUND,
@@ -11894,9 +11894,9 @@ const struct BaseStats gBaseStats[] =
 	[SPECIES_VOLBEAT] =
 	{
 		.baseHP 		= 65,
-		.baseAttack 	= 83,
+		.baseAttack 	= 23,
 		.baseDefense 	= 82,
-		.baseSpAttack 	= 23,
+		.baseSpAttack 	= 83,
 		.baseSpDefense 	= 92,
 		.baseSpeed 		= 85,
 		.type1 = TYPE_BUG,
